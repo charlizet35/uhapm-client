@@ -1,6 +1,7 @@
 .events {
     display: grid;
     place-items: center;
+<<<<<<< Updated upstream
     animation: fade-up 3s;
 }
 
@@ -20,3 +21,9 @@ iframe {
 		transform: translateY(0px) scale(1);
 	}
 }
+=======
+    width: 1000px;
+    height: 1000px;
+}
+
+>>>>>>> Stashed changes

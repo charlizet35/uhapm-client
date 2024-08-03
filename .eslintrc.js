@@ -17,7 +17,7 @@ module.exports = {
 	},
     "plugins": ["react", "prettier"],
 	"rules": {
-		"linebreak-style": ["error", (require("os").EOL === "\r\n" ? "windows" : "unix")],
+		"linebreak-style": ["error","unix"],
 		"react/prop-types": "off",
 		"prettier/prettier": [
 			"error",
